@@ -17,14 +17,6 @@ import java.util.stream.Collectors;
 public class LibraryTest {
     @Before
     public void setUp() throws Exception {
-//        library = new LibraryImpl("jdbc:h2:mem:library", "", "");
-//        try(
-//                Connection connection = DriverManager.getConnection("jdbc:h2:mem:library");
-//                Statement stmt = connection.createStatement();)
-//        {
-//            stmt.execute("create table abonents(student_id int, student_name varchar(255))");
-//            stmt.execute("create table books(book_id int, book_title varchar(255), student_id int)");
-//        }
     }
 
     @After
